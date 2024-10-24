@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals"],
+  "overrideConfig": {
+    "linterOptions": {
+      "reportUnusedDisableDirectives": "error"
+    }
+  }
+}
+
+//"extends": ["next/core-web-vitals", "next/typescript"]
